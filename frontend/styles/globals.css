@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+#navbar #logotext{
+    font-family: 'Russo One', sans-serif;
+}
+
+#navbar li{
+    font-family: 'Russo One', sans-serif;
+    color:grey;
+}
+
+#Home #WatchButton{
+    font-family: 'Lato', sans-serif;
+}
+
+#homesection1 #homesection1p{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+.smenu{
+    left:0;
+}
+
+*::-webkit-scrollbar{
+    width: 7px;
+    
+}
+
+
+*::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+*::-webkit-scrollbar-thumb{
+    background-color: darkgrey;
+    border-radius: 40px;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(118, 118, 118);
+}
+
+*{
+    -webkit-tap-highlight-color:transparent;
+}
+*:focus{
+    outline: none !important;
+}
+#joinus{
+    /* background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('https://lh3.googleusercontent.com/QWqkOlM9yg3pGHNtOSdsW0TL8OjZkY8h3oiEoFUoNWDW3CzVzFm6KCcvLpUbYHkb_X4Ln0HPpakQoO9gtB6JEjZAWbkve97CgJdmp3BvThpmnWyA6-y7Pw3_9xcqHhQRAq5eyLagqe5np8FJsdilxEBSRc7DsXzTYigReoHd3Jm8WNFLaI1RjsDxnho-ls7YaRD0oo4yItIz60pb4xTDVWbjGGr9awrcM73BdYdFnO5vb1N2z2MEB2KoSlaJOyRdIWF20nLjsz6G8lyA-8MYtNylivrkj6_DFug-UZvuzDyfazppYpeVlRLd624zGH6O-JFu8H4GZsTSpnAuU5gMlRIMS51zGoF6usH8TG8BiMrR3CAho-vpyzg6_APJaY_FGAE1NDMT5jGWLwnJI5oyxHOibr9n0My92uM5alXTTK60xqYtPSccjSCuVtU52i4uENffZvzN4S5kaO11T3qcYzsuvOtFnZS7oolO6exCR1xCS-ZXtH_p0zd2zOSFs8TI090qpsbSLOahEZDcRqIW0NYYAlekMw9HNZlbTI8Qx6mxkpk0ra6HSPkluiUz-5f0zY3W9avoCahic0Q6ZIPW04YGflREOlokY9Cc0h5jYGmeRxMpW6PPPFIudIGvEohDb3hO-D25Rpv-5s3lqBJBvE_z6czTVbo15rsDGFIuwapV3tnNmzsgfou-7GAGVbEL0r3M8ye5z3_a-wZlkJSiq1rJKZBtWIxwd4TgpkJ-wX5GrpIZFnqcUSrS0NIztg=w959-h640-no?authuser=0');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 6% auto;
+}
+#content{
+    
+    transition:all;
+}
+.slider-wrapper{
+    height:0px;
+}
+
+.bg-red-500{
+    width:100px;
+    height:100px;
+    background-color:'red'
+}
+
+#file-upload-button{
+    border: 2px solid red !important;
+}
+
+#creditcard input {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s;
+  }
